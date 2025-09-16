@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "725385445574",
+    "project_id": "messenger-49b92",
+    "storage_bucket": "messenger-49b92.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725385445574:android:80b05a9b279903720717c7",
+        "android_client_info": {
+          "package_name": "com.example.my.mess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQxwPlcdnUVlrV6aVPOpUt6h1LQw6ZmMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725385445574:android:96dedc9ded22b4ab0717c7",
+        "android_client_info": {
+          "package_name": "com.example.my_messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQxwPlcdnUVlrV6aVPOpUt6h1LQw6ZmMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725385445574:android:05d339ef3034e9b30717c7",
+        "android_client_info": {
+          "package_name": "com.test.messapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQxwPlcdnUVlrV6aVPOpUt6h1LQw6ZmMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
