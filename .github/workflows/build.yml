@@ -1,10 +1,10 @@
 name: Flutter Android Build
 
-# Сборка запускается при пуше в ветку main
+# Сборка запускается при пуше в ветку master
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.13.1'  # Замени на версию Flutter твоего проекта
+          flutter-version: '3.13.1'  # укажи свою версию Flutter
 
       # 3. Получаем зависимости проекта
       - name: Install dependencies
@@ -29,7 +29,7 @@ jobs:
       - name: Build Release APK
         run: flutter build apk --release
 
-      # 5. Загружаем готовый APK как артефакт для скачивания
+      # 5. Загружаем готовый APK как артефакт
       - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
