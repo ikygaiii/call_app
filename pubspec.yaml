@@ -1,6 +1,6 @@
 name: call_app
 description: A simple video/audio calling app with Firebase and WebRTC.
-publish_to: "none" # это локальный проект
+publish_to: "none"
 
 environment:
   sdk: ">=3.9.0 <4.0.0"
